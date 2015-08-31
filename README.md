@@ -18,6 +18,8 @@ And at the end of the file <strong>config/app.php</strong>, add alias for <stron
     
 2. Create Facade folder if does not exist yet
 ---------------------------------------------
+Next you can create the folder for your facades in <strong>app folder</strong>
 
+    'app / facade'
 
 
