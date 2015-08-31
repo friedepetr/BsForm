@@ -15,3 +15,6 @@ All what you need to do is register new <strong>BsServiceProvider</strong>
 And at the end of the file <strong>config/app.php</strong>, add alias for <strong>BsForm</strong> like this:
 
     'BsForm'    => App\BsForm::class
+    
+Create BsForm Facade <strong>app/Facades/BsFormFacade.php</strong>
+------------------------------------------------------------------ 
