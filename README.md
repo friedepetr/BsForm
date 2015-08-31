@@ -30,7 +30,15 @@ Finally let's move to BsForm class. Recommanded place for this file is in app fo
 
 How works with BsForm
 ---------------------
-For example compare with LaraCollective:
+For example we want to create form for add new article on our blog: 
 
-    {!! Form::open(array('route' => 'route.name')) !!}   // LaraCollective
-    {!! BsForm::bs_open( 'articles.store' ) !!}          // BsForm        
+    {!! BsForm::bs_open( 'articles.store' ) !!}
+    {!! BsForm::bs_text( 'article.author'           , [ 'label' => 'author:'   ]) !!}
+    {!! BsForm::bs_text( 'article.title'            , [ 'label' => 'Title:'    ]) !!}
+    {!! BsForm::bs_text( 'article.subtitle'         , [ 'label' => 'Subtitle:' ]) !!}
+    {!! BsForm::bs_text( 'article.tags'             , [ 'label' => 'Tags:'     ]) !!}
+    {!! BsForm::bs_text( 'article.content'          , [ 'label' => 'Content:'  ]) !!}
+    {!! BsForm::bs_button( 'success' , 'Add new article' ) !!}
+    {!! BsForm::bs_close() !!}
+    
+   
