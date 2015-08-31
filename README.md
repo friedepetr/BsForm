@@ -56,7 +56,7 @@ First line contains two arguments, Eloquent model name and action from RESTful R
     <form method='POST' action='http://something.app/articles' accept-charset='UTF-8' id='form_articles'>
     <input type='hidden' name='_token' value='CfVgPOBqsRsc5eS9jDuJ33ZnA82TXLUR1J4p9Kvv'>
     
-The bs_text method generated input type text
+<strong>bs_text()</strong> generated classic bootstrap input type text. So automatically create id and corresponding input name with database colum.
 
     {!! BsForm::bs_text( 'article.author' , [ 'label' => 'author:' ]) !!}
 
