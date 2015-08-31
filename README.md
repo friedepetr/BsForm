@@ -61,7 +61,7 @@ First line contains two arguments, Eloquent model name and action from RESTful R
 Generated classic bootstrap input type text. So automatically create id and corresponding input name with database colum.
 
     <div class='form-group'>
-    <label for='article_author'>Autor článku:</label>
+    <label for='article_author'>autor:</label>
     <input class='form-control' id='article_author' name='article_author' type='text' >
     </div>
 
@@ -71,7 +71,7 @@ Generated classic bootstrap input type text. So automatically create id and corr
 
 This function create standard bootstrap button with predefined classes for fast using. First argument is the type of the button defined by class. You can use success, info, warning or danger for styling button. Each class add to the button font-awesome icon, ex. success adding check. The button is nicer :-)
 
-    <button type='submit' class='btn btn-success'><i class='fa fa-check'></i> Přidat nový článek</button>
+    <button type='submit' class='btn btn-success'><i class='fa fa-check'></i> Add new article</button>
 
 <strong>bs_close()</strong>
 
