@@ -1,7 +1,7 @@
 Getting Started with BsForm
 ---------------------------
-
-This Extension you can use very simply, with the Laravel framework 5.1
+BsForm is the extension for building forms with LaravelCollective.com
+This Extension you can use very simply
 
 Register in <strong>config/app.php</strong>
 ---------------------------------------------- 
