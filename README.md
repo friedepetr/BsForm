@@ -30,7 +30,7 @@ Finally let's move to BsForm class. Recommanded place for this file is in app fo
 
 How works with BsForm
 ---------------------
-For example we want to create form for add new article on our blog: 
+For example we want to create form for add new article on our blog ex. views / articles / create.blade.php : 
 
     {!! BsForm::bs_open( 'articles.store' ) !!}
     {!! BsForm::bs_text( 'article.author'           , [ 'label' => 'author:'   ]) !!}
