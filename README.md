@@ -8,6 +8,11 @@ Register in <strong>config/app.php</strong>
 
 All what you need to do is register new BsServiceProvider
 
-<code>/* Application Service Providers...*/ </code>
+    /* Application Service Providers...*/
+    App\Providers\BsServiceProvider::class,
 
-<code>App\Providers\BsServiceProvider::class,</code>
+And at the end of the file, into the alias, add alias for BsForm like this:
+
+        
+    
+  'BsForm'    => App\BsForm::class
