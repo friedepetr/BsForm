@@ -22,4 +22,7 @@ Next you can create the folder for your facades in <strong>app folder</strong>. 
 
     app / facade / BsFormFacade.php
 
+3. BsForm class
+---------------
+Finally let's move to BsForm class. Recommanded place for this file is in app folder too.
 
