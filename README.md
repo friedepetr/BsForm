@@ -11,8 +11,6 @@ All what you need to do is register new <strong>BsServiceProvider</strong>
     /* Application Service Providers...*/
     App\Providers\BsServiceProvider::class,
 
-And at the end of the file, into the alias, add alias for <strong>BsForm</strong> like this:
+And at the end of the file, add alias for <strong>BsForm</strong> like this:
 
-        
-    
-  'BsForm'    => App\BsForm::class
+    'BsForm'    => App\BsForm::class
