@@ -30,5 +30,7 @@ Finally let's move to BsForm class. Recommanded place for this file is in app fo
 
 How works with BsForm
 ---------------------
-Its simply. For example compare LaraCollective form open via BsForm open:
+For example compare LaraCollective form open via BsForm open:
 
+    {!! Form::open(array('route' => 'route.name')) !!}
+    {!! BsForm::bs_open( 'articles.store' ) !!}
