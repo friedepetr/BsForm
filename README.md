@@ -32,7 +32,7 @@ How works with BsForm
 ---------------------
 For example we want to create form for add new article on our blog ex. views / articles / create.blade.php. We expect in <strong>app / Http / routes.php</strong> is simply articles RESTful Resource:
 
-Route::resource('articles' , 'ArticlesController');
+    Route::resource('articles' , 'ArticlesController');
 
 In blade template we have:
 
