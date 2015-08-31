@@ -50,6 +50,8 @@ First line contains two arguments, Eloquent model name and action from RESTful R
 
     Route::resource('articles' , 'ArticlesController');
 
+The bs_open method generated form with action corresponding with php artisan route:list { name }
+
     <form method='POST' action='http://something.app/articles' accept-charset='UTF-8' id='form_articles'>
     <input type='hidden' name='_token' value='CfVgPOBqsRsc5eS9jDuJ33ZnA82TXLUR1J4p9Kvv'>
     
