@@ -30,7 +30,11 @@ Finally let's move to BsForm class. Recommanded place for this file is in app fo
 
 How works with BsForm
 ---------------------
-For example we want to create form for add new article on our blog ex. views / articles / create.blade.php : 
+For example we want to create form for add new article on our blog ex. views / articles / create.blade.php. We expect in <strong>app / Http / routes.php</strong> is simply articles RESTful Resource:
+
+Route::resource('articles' , 'ArticlesController');
+
+In blade template we have:
 
     {!! BsForm::bs_open( 'articles.store' ) !!}
     {!! BsForm::bs_text( 'article.author'           , [ 'label' => 'author:'   ]) !!}
@@ -40,10 +44,6 @@ For example we want to create form for add new article on our blog ex. views / a
     {!! BsForm::bs_text( 'article.content'          , [ 'label' => 'Content:'  ]) !!}
     {!! BsForm::bs_button( 'success' , 'Add new article' ) !!}
     {!! BsForm::bs_close() !!}
-    
-We expect in <strong>app / Http / routes.php</strong> is simply articles RESTful Resource:
-
-    Route::resource('articles' , 'ArticlesController');
 
 <strong>bs_open()</strong>
 
