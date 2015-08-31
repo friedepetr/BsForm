@@ -41,4 +41,29 @@ For example we want to create form for add new article on our blog:
     {!! BsForm::bs_button( 'success' , 'Add new article' ) !!}
     {!! BsForm::bs_close() !!}
     
-   
+And what output?
+
+    <form method='POST' action='http://horse.app/articles' accept-charset='UTF-8' id='form_articles'><input type='hidden'        name='_token' value='CfVgPOBqsRsc5eS9jDuJ33ZnA82TXLUR1J4p9Kvv'>
+    
+    <div class='form-group'>
+    <label for='article_author'>Autor článku:</label>
+    <input class='form-control' id='article_author' name='article_author' type='text' >
+    </div>
+    <div class='form-group'>
+    <label for='article_title'>Titulek článku:</label>
+    <input class='form-control' id='article_title' name='article_title' type='text' >
+    </div>
+    <div class='form-group'>
+    <label for='article_subtitle'>Podtitulek článku:</label>
+    <input class='form-control' id='article_subtitle' name='article_subtitle' type='text' >
+    </div>
+    <div class='form-group'>
+    <label for='article_tags'>Tagy:</label>
+    <input class='form-control' id='article_tags' name='article_tags' type='text' >
+    </div>
+    <div class='form-group'>
+    <label for='article_content'>Obsah článku:</label>
+    <input class='form-control' id='article_content' name='article_content' type='text' >
+    </div>
+    <button type='submit' class='btn btn-success'><i class='fa fa-check'></i> Přidat nový článek</button>
+    </form>
