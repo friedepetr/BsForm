@@ -20,6 +20,6 @@ And at the end of the file <strong>config/app.php</strong>, add alias for <stron
 ---------------------------------------------
 Next you can create the folder for your facades in <strong>app folder</strong>
 
-    'app / facade'
+    app / facade
 
 
