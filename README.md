@@ -43,7 +43,8 @@ For example we want to create form for add new article on our blog:
     
 And what output?
 
-    <form method='POST' action='http://horse.app/articles' accept-charset='UTF-8' id='form_articles'><input type='hidden'        name='_token' value='CfVgPOBqsRsc5eS9jDuJ33ZnA82TXLUR1J4p9Kvv'>
+    <form method='POST' action='http://horse.app/articles' accept-charset='UTF-8' id='form_articles'>
+    <input type='hidden' name='_token' value='CfVgPOBqsRsc5eS9jDuJ33ZnA82TXLUR1J4p9Kvv'>
     
     <div class='form-group'>
     <label for='article_author'>Autor článku:</label>
