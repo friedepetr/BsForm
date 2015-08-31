@@ -16,6 +16,8 @@ And at the end of the file <strong>config/app.php</strong>, add alias for <stron
 
     'BsForm'    => App\BsForm::class
     
+2. Create Facade folder if does not exist yet
+---------------------------------------------
 
 
 
